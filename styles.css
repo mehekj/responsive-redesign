@@ -93,13 +93,15 @@ p {
   font-size: 3rem;
 }
 
-.nav-bar-logo {
+.nav-bar-logo,
+.footer-logo {
   max-width: 15%;
   min-width: 100px;
   cursor: pointer;
 }
 
-.nav-bar-logo > img {
+.nav-bar-logo > img,
+.footer-logo > img {
   height: 100%;
   object-fit: cover;
 }
@@ -411,7 +413,7 @@ a:visited {
 }
 
 .footer-content {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -422,16 +424,6 @@ a:visited {
 .footer-content > p {
   color: #ffffff;
   text-align: right;
-}
-
-.footer-logo {
-  max-width: 15%;
-  min-width: 100px;
-}
-
-.footer-logo > img {
-  height: 100%;
-  object-fit: cover;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -445,7 +437,8 @@ a:visited {
     display: none;
   }
 
-  .nav-bar-logo {
+  .nav-bar-logo,
+  .footer-logo {
     max-width: 40%;
   }
 
