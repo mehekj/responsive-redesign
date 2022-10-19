@@ -287,6 +287,10 @@ a {
   text-decoration: underline;
 }
 
+a:hover {
+  color: #b32416;
+}
+
 a:visited {
   color: #221e72;
 }
