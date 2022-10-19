@@ -429,7 +429,7 @@ a:visited {
 .footer-content > p {
   color: #ffffff;
   text-align: right;
-  max-width: 40%;
+  max-width: 50%;
 }
 
 @media only screen and (max-width: 1000px) {
